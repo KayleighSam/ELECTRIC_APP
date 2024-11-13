@@ -12,6 +12,7 @@ import Productdetails from './Component/Productdetails';
 import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 function App() {
   const [productData]=useState([]);
   
@@ -31,6 +32,7 @@ function App() {
 
       </Routes>
       <ToastContainer />
+      
       <Footer />
     </div>
 
